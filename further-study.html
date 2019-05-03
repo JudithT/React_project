@@ -1,0 +1,33 @@
+=============
+Further Study
+=============
+
+Build out a new route and page called "About the Author". 
+
+Complete the following steps:
+
+1) Create a new HTML file called ``about.html``. Extend this
+   from ``base.html``.
+
+2) Create a new flask route that renders ``about.html``.
+
+3) Create a new JS file (use the filetype ``.jsx``) and create
+   a component similar to the `Homepage` component called `About`.
+
+3) Add two things to the ``about.html``
+
+- A ``<script>`` tag that pulls in your new ``.jsx`` file. 
+
+- A ``<div>`` component with an ``id`` attribute of your choosing.
+
+4) Mount the new `About` component onto the ``<div>`` you created
+   in the previous section. You can do this by adding the following
+   line to your new JSX file.
+
+.. code-block:: javascript
+
+  ReactDOM.render(<About />, document.getElementById('ID_YOU_CHOSE'));
+   
+
+
+
